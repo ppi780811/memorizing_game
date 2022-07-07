@@ -135,7 +135,6 @@ const controller = {
 
                 // 判斷配對是否成功
                 if (model.isRevealedCardsMatched()) {
-                    view.showGameFinished()
                     // 配對成功
                     view.renderScore(model.score += 10)
 
